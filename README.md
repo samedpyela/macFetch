@@ -25,7 +25,7 @@ pip3 install customtkinter requests --break-system-packages
 ```
 ---
 
-## 🖥️ Step 2: How to Launch the App (The Correct Way)
+## 🖥️ Step 2: How to Launch the App 
 * **IMPORTANT:** Do not just double-click the macfetch.py file! On many systems, this will simply open a text editor (like Xcode or Notepad). You must run it through the terminal to ensure it works properly.
 
 Follow these exact steps to launch the app:
