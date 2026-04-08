@@ -14,7 +14,7 @@ Finding a specific, clean macOS installer is often a nightmare. Apple hides old 
 
 ---
 
-## 📦 Step 1: Installation (The Essential Setup)
+## 📦 Step 1: Installation 
 
 To run macFetch, you must install the required libraries that power the interface and the internet features. 
 
