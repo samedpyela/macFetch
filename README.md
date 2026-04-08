@@ -4,7 +4,7 @@
 
 ---
 
-### 📖 What is macFetch and What Does It Do?
+## 📖 What is macFetch and What Does It Do?
 Finding a specific, clean macOS installer is often a nightmare. Apple hides old versions, and forums are frequently filled with dead or untrustworthy links. **macFetch** solves this by centralizing Apple's official Software Delivery Network (`swcdn.apple.com`) and community-verified links into one sleek, "Dark Mode" window.
 
 * **Massive Library:** Support for every major release and minor "point" release (e.g., 10.15.7, 12.1, 15.0).
@@ -14,7 +14,7 @@ Finding a specific, clean macOS installer is often a nightmare. Apple hides old 
 
 ---
 
-### 📦 Step 1: Installation (The Essential Setup)
+## 📦 Step 1: Installation (The Essential Setup)
 
 To run macFetch, you must install the required libraries that power the interface and the internet features. 
 
@@ -25,7 +25,7 @@ pip3 install customtkinter requests --break-system-packages
 ```
 ---
 
-### 🖥️ Step 2: How to Launch the App (The Correct Way)
+## 🖥️ Step 2: How to Launch the App (The Correct Way)
 * **IMPORTANT:** Do not just double-click the macfetch.py file! On many systems, this will simply open a text editor (like Xcode or Notepad). You must run it through the terminal to ensure it works properly.
 
 Follow these exact steps to launch the app:
@@ -42,7 +42,7 @@ Press Enter on your keyboard.
 
 ---
 
-### 🔄 Database Customization & GitHub Sync
+## 🔄 Database Customization & GitHub Sync
 macFetch is a data-driven application. It uses a file called macfetch_catalog.json (automatically created on your first launch) to manage all the download links.
 
 1. Adding Your Own Links Manually:
@@ -61,7 +61,7 @@ Simply click the "🔄 Sync GitHub" button to automatically pull the latest comm
 
 ---
 
-### ⚠️ Common Troubleshooting
+## ⚠️ Common Troubleshooting
 Error: "ModuleNotFoundError": This means Step 1 failed. You must re-run the pip3 install command with the --break-system-packages flag.
 
 The App Closes Immediately: Always launch via the terminal. If there is a mistake in your macfetch_catalog.json file (like a missing comma or quotation mark), the terminal will show you exactly what line is broken.
